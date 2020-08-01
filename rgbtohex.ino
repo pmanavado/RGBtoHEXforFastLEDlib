@@ -44,5 +44,5 @@ void loop() {
   }
   
 String HEXCODE = "0x" + stringOne + stringTwo + stringThree;
-long color = strtol(HEXCODE.c_str(), NULL, 16);
+long color = strtol(HEXCODE.c_str(), NULL, 16); //This line is taken from a code snippet from u/truetofiction on reddit
 }
